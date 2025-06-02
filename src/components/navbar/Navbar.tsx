@@ -12,7 +12,7 @@ function Navbar() {
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
-                                    <a href="#" className="block rounded-md bg-cyan-500 px-3 py-2 text-base font-medium text-white" aria-current="page">Farmacia Drogazen</a>
+                                    <a href="/home" className="block rounded-md bg-cyan-500 px-3 py-2 text-base font-medium text-white" aria-current="page">Farmacia Drogazen</a>
                                     <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-cyan-400 hover:text-white">Categorias</a>
                                     <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-cyan-400 hover:text-white">Nova Categoria</a>
                                 </div>
