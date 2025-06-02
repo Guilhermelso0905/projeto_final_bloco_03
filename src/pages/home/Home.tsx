@@ -1,24 +1,16 @@
 function Home() {
     return (
-        <>
-            <div className="w-screen h-screen flex justify-center bg-cyan-400">
-                <div>
-                    <div className="max-w-7xl flex flex-col items-center">
-                        <h2 className="text-white text-4xl">Farmacia Drogazen</h2>
-                        <p className="text-white text-lg">Melhores Preços da Região</p>
-                    </div>
-
-                    <div className="max-w-7xl flex flex-col items-center">
-                        <img
-                            src="https://i.imgur.com/Z9VKKrr.jpeg"
-                            alt=""
-                            width="20%"
-                        />
-                    </div>
-                </div>
+        <div className="w-screen h-screen bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center">
+            <div className="text-center p-8 bg-blue-600 bg-opacity-20 backdrop-blur-md rounded-2xl shadow-lg max-w-md w-full">
+                <h1 className="text-5xl font-bold text-white mb-4 drop-shadow-md">
+                    Farmácia Drogazen
+                </h1>
+                <p className="text-lg text-white mb-6 drop-shadow-sm">
+                    Os melhores preços da região, com qualidade e cuidado.
+                </p>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
-export default Home
+export default Home;
